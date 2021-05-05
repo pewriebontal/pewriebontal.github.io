@@ -2,25 +2,25 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Hokarinmari | Human', // e.g: 'Name | Developer'
+  title: 'HOME | pewriebontal', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: "Hokarinmari's landing page", // e.g: Welcome to my website
+  description: "pewriebontal's landing page", // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: "Hi, my name is not",
-  name: 'Hokarinmari',
-  subtitle: "I'm not a Unity Developer",
+  title: 'Hi, my name is',
+  name: 'pewriebontal',
+  subtitle: "I'm a 18 yrs old boy",
   cta: "OK, I don't care!",
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: "My name is Hokarinmari and I'm Unity developer.",
+  paragraphOne: "My name is pewriebontal and I'm Unity developer.",
   paragraphTwo: "I'm 18 yrs old and live in Burma.",
-  paragraphThree: 'Currently learning 3D modelling and I like to play CSGO.',
+  paragraphThree: 'Currently working on PACMAN 3D and I like to watch movies.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'example@example.com',
+  email: 'pewriebontal@outlook.com',
 };
 
 // FOOTER DATA
@@ -67,23 +67,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'facebook',
-      url: 'https://facebook.com/kyaw.z.soe.96592',
+      name: 'instagram',
+      url: 'https://instagram.com/pewriebontal',
     },
-    /*    {
+    {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
-    }, 
+      name: 'twitter',
+      url: 'https://twitter.com/pewriebontal',
+    },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
-    }, */
+      url: 'https://www.linkedin.com/in/pewriebontal/',
+    },
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/hokarinmari',
+      url: 'https://github.com/pewriebontal',
     },
   ],
 };
