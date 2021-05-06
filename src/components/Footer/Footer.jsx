@@ -39,7 +39,7 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           Copyright © {new Date().getFullYear()} -{' '}
-          <a href="https://github.com/pewriebontal" target="_blank" rel="noopener noreferrer">
+          <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">
             pewriebontal
           </a>
         </p>
