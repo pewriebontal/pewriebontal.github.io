@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: pewriebontal.github.io
+Token: c0c6e3436a9d1ef0761ff283ba8a2ad66857d602e618b9b2bd7739be0fdacc07

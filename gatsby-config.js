@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `HOME | pewriebontal`,
     description: `pewriebontal's landing page`,
-    image: './src/images/profile.jpg',
+    image: './src/images/logo.svg',
     url: `https://pewriebontal.github.io`,
     twitterUsername: '@pewriebontal',
   },
@@ -37,8 +37,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'pewriebontal`s Landing Page',
-        short_name: `pewriebontal`,
+        name: `HOME | pewriebontal`,
+        short_name: `PB`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,

@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: "My name is pewriebontal and I'm Unity developer.",
+  paragraphOne: "My name is pewriebontal and I'm Unity C# developer.",
   paragraphTwo: "I'm 18 yrs old and live in Burma.",
   paragraphThree: 'Currently working on PACMAN 3D and I like to watch movies.',
   resume: '', // if no resume, the button will not show up
@@ -57,8 +57,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
+  cta: 'Would you like to work with me? Awesome!',
+  btn: 'Send Mail',
   email: 'pewriebontal@outlook.com',
 };
 

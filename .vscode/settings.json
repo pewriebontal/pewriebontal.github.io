@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "**/*.gif": true,
+    "**/*.ico": true,
+    "**/*.jpg": true,
+    "**/*.jpeg": true,
+    "**/*.png": true,
+    ".cache/": true,
+    "node_modules/": true,
+    "public/": true
+  }
+}
