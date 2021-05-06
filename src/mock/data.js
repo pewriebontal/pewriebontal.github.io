@@ -11,16 +11,16 @@ export const headData = {
 export const heroData = {
   title: 'Hi, my name is',
   name: 'pewriebontal',
-  subtitle: "I'm a 18 yrs old boy",
-  cta: "OK, I don't care!",
+  subtitle: "I'm a 18 yrs old boy.",
+  cta: 'Know More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: "My name is pewriebontal and I'm Unity C# developer.",
+  paragraphOne: "My name is pewriebontal and I'm Unity3d developer.",
   paragraphTwo: "I'm 18 yrs old and live in Burma.",
-  paragraphThree: 'Currently working on PACMAN 3D and I like to watch movies.',
+  paragraphThree: 'Currently working on pacman 3D and I like to watch movies.',
   resume: '', // if no resume, the button will not show up
 };
 

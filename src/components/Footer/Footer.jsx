@@ -24,7 +24,13 @@ const Footer = () => {
             networks.map((network) => {
               const { id, name, url } = network;
               return (
-                <a key={id} href={url} rel="noopener noreferrer" target="_blank" aria-label={name}>
+                <a
+                  key={id}
+                  href={url || 'https://pewriebontal.github.io'}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  aria-label={name}
+                >
                   <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
                 </a>
               );

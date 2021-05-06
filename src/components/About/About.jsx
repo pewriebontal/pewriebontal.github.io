@@ -37,9 +37,15 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">{paragraphOne}</p>
-                <p className="about-wrapper__info-text">{paragraphTwo}</p>
-                <p className="about-wrapper__info-text">{paragraphThree}</p>
+                <p className="about-wrapper__info-text">
+                  {paragraphOne || "My name is pewriebontal and I'm Unity3d developer."}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphTwo || "I'm 18 yrs old and live in Burma."}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphThree || 'Currently working on pacman 3D and I like to watch movies.'}
+                </p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
