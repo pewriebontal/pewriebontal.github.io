@@ -15,17 +15,17 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>404.1 | Error</title>
+        <title>69 | Nice</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content="Page not found" />
+        <meta name="description" content="Nice" />
       </Helmet>
       <section id="hero" className="jumbotron">
         <Container>
           <Fade bottom duration={1000} delay={500} distance="30px">
             <h1 className="hero-title text-center">
-              404.1 Page Not Found{' '}
+              Nice{' '}
               <span role="img" aria-label="emoji">
-                🥺
+                🌚👍
               </span>
             </h1>
           </Fade>
