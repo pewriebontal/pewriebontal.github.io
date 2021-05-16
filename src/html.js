@@ -16,9 +16,15 @@ export default function HTML({
   return (
     <html {...htmlAttributes}>
       <head>
-        <meta charSet="utf-8" />
+        <meta charset="UTF-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="author" content="Pewrie Bontal" />
+        <link rel="canonical" href="https://www.pewriebontal.ml" />
+        <meta
+          name="keywords"
+          content="Pewrie Bontal, pewriebontal, Min Thu Khine, pewriebontal.ml"
+        />
         {headComponents}
       </head>
       <body {...bodyAttributes}>

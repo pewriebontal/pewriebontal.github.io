@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
 export default () => {
-  const { title, lang, description } = headData;
+  const { title, lang, description, keywords } = headData;
 
   return (
     <>
@@ -15,6 +15,10 @@ export default () => {
         <title>{title || 'HOME | pewriebontal'}</title>
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'Human'} />
+        <meta
+          name="keywords"
+          content={keywords || 'Pewrie Bontal, pewriebontal, Min Thu Khine, pewriebontal.ml'}
+        />
       </Helmet>
       <App />
     </>

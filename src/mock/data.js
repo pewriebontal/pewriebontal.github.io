@@ -4,7 +4,8 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'HOME | pewriebontal', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: "pewriebontal's landing page", // e.g: Welcome to my website
+  description: "pewriebontal's landing page",
+  keywords: 'Pewrie Bontal, pewriebontal, Min Thu Khine, pewriebontal.ml',
 };
 
 // HERO DATA

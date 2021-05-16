@@ -2,9 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `HOME | pewriebontal`,
     description: `pewriebontal's landing page`,
-    image: './src/images/logo.svg',
-    url: `https://pewriebontal.github.io`,
+    image: './static/img/logo.png',
+    url: `https://www.pewriebontal.ml`,
     twitterUsername: '@pewriebontal',
+    keywords: 'pewrie bontal, Min Thu Khine, pewriebontal',
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -17,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `G-25BM3S78Y3`,
+        trackingId: `G-6B7Z9MNJKN`,
       },
     },
     {
