@@ -1,5 +1,6 @@
 {
   "files.exclude": {
+    ".git": true,
     "**/*.gif": false,
     "**/*.ico": false,
     "**/*.jpg": false,
