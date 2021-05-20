@@ -1,6 +1,6 @@
-# Personal landing page ⚡️
+# Personal Landing Page ⚡️
 
-pewriebontal's Landing page, using [Jacobo Martínez's gatsby-simplefolio Template](https://github.com/cobidev/gatsby-simplefolio).
+[Pewriebontal](https://github.com/pewriebontal)'s Landing page, using [Jacobo Martínez](https://github.com/cobidev)'s [gatsby-simplefolio Template](https://github.com/cobidev/gatsby-simplefolio).
 
 ## Getting Started 🚀
 

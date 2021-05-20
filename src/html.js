@@ -16,7 +16,7 @@ export default function HTML({
   return (
     <html {...htmlAttributes}>
       <head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="author" content="Pewrie Bontal" />
