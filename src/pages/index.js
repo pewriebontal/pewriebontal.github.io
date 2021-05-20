@@ -14,11 +14,19 @@ export default () => {
         <meta charSet="utf-8" />
         <title>{title || 'HOME | pewriebontal'}</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Human'} />
+        <meta name="description" content={description || `pewriebontal's landing page`} />
         <meta
           name="keywords"
           content={keywords || 'Pewrie Bontal, pewriebontal, Min Thu Khine, pewriebontal.ml'}
         />
+        <meta property="og:title" content="HOME | pewriebontal" />
+        <meta property="og:description" content="pewriebontal's landing page" />
+        <meta property="og:image" content="https://pewriebontal.ml/img/logo.png" />
+        <meta property="og:url" content="https://pewriebontal.ml" />
+        <meta name="twitter:title" content="HOME | pewriebontal " />
+        <meta name="twitter:description" content=" pewriebontal's landing page" />
+        <meta name="twitter:image" content=" https://pewriebontal.ml/img/logo.png" />
+        <meta name="twitter:card" content="pewriebontal" />
       </Helmet>
       <App />
     </>

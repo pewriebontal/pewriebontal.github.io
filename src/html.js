@@ -20,7 +20,7 @@ export default function HTML({
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="author" content="Pewrie Bontal" />
-        <link rel="canonical" href="https://www.pewriebontal.ml" />
+        <link rel="canonical" href="https://pewriebontal.ml" />
         <meta
           name="keywords"
           content="Pewrie Bontal, pewriebontal, Min Thu Khine, pewriebontal.ml"

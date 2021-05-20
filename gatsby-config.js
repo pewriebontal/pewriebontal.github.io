@@ -3,7 +3,7 @@ module.exports = {
     title: `HOME | pewriebontal`,
     description: `pewriebontal's landing page`,
     image: './static/img/logo.png',
-    url: `https://www.pewriebontal.ml`,
+    url: `https://pewriebontal.ml`,
     twitterUsername: '@pewriebontal',
     keywords: 'pewrie bontal, Min Thu Khine, pewriebontal',
   },
