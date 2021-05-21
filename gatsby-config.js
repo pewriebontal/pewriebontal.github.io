@@ -22,6 +22,20 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-clarity`,
+      options: {
+        // String value for your clarity project id
+        // Project id is found in your clarity dashboard url
+        // https://clarity.microsoft.com/projects/view/{clarity_project_id}/
+        clarity_project_id: '6s9un0f33s',
+        // Boolean value for enabling clarity while developing
+        // true will enable clarity tracking code on both development and production environments
+        // false will enable clarity tracking code on production environment only
+        //
+        enable_on_dev_env: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
