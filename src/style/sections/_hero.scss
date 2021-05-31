@@ -35,7 +35,7 @@
     }
     @include respond(tab-port) {
       font-size: 3.6rem;
-      text-align: center;
+      text-align: left;
     }
     @include respond(phone) {
       font-size: 3.5rem;
