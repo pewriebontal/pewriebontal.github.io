@@ -60,7 +60,7 @@ export const projectsData = [
 export const contactData = {
   cta: 'Would you like to work with me? Awesome!',
   btn: 'Send Mail',
-  email: 'pewriebontal@outlook.com',
+  email: 'hello@pewriebontal.ml',
 };
 
 // FOOTER DATA
