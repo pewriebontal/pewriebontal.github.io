@@ -3,7 +3,7 @@ module.exports = {
     title: `HOME | pewriebontal`,
     description: `pewriebontal's landing page`,
     image: './static/img/logo.png',
-    url: `https://pewriebontal.ml`,
+    siteUrl: `https://pewriebontal.ml`,
     twitterUsername: '@pewriebontal',
     keywords: 'pewrie bontal, Min Thu Khine, pewriebontal',
   },
@@ -14,6 +14,23 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-advanced-sitemap`,
+    {
+      resolve: 'gatsby-plugin-next-seo',
+      options: {
+        openGraph: {
+          type: 'website',
+          locale: 'en_US',
+          url: 'https://pewriebontal.ml/',
+          site_name: 'Pewriebontal',
+        },
+        twitter: {
+          handle: '@pewriebontal',
+          site: '@pewriebontal',
+          cardType: 'summary_large_image',
+        },
+      },
+    },
     //  `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,

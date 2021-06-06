@@ -26,7 +26,7 @@ export default () => {
         <meta name="twitter:title" content="HOME | pewriebontal " />
         <meta name="twitter:description" content=" pewriebontal's landing page" />
         <meta name="twitter:image" content=" https://pewriebontal.ml/img/logo.png" />
-        <meta name="twitter:card" content="pewriebontal" />
+        <meta name="twitter:card" content="summary_large_image" /> */
       </Helmet>
       <App />
     </>
